@@ -3,7 +3,7 @@ cd ~/Documents/Dark-Web-Intelligence-Platform.
 
 # Step 2 - Create README (copy this ENTIRE block)
 cat > README.md << 'ENDOFREADME'
-# 🕵️ Dark Web Intelligence Platform
+#  Dark Web Intelligence Platform
 
 > **Real-Time Threat Detection & Analysis System for Cryptocurrency Criminal Activity**
 
@@ -11,7 +11,7 @@ cat > README.md << 'ENDOFREADME'
 **Author:** Kyle  
 **Repository:** https://github.com/GoatVenom/Dark-Web-Intelligence-Platform
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 Production-grade intelligence platform demonstrating:
 - Real-time cryptocurrency threat detection (20+ transactions/second)
@@ -20,7 +20,7 @@ Production-grade intelligence platform demonstrating:
 - Criminal network analysis
 - Automated intelligence reporting
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 git clone https://github.com/GoatVenom/Dark-Web-Intelligence-Platform.git
