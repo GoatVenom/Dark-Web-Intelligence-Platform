@@ -1,0 +1,36 @@
+actor_id,actor_name,actor_type,associated_country,threat_level,first_seen,last_seen,num_known_transactions,num_known_aliases,confidence_score
+ACTOR_00001,Actor_2012,money_launderer,Iran,high,2023-09-28,2024-09-13,352,9,0.8082839837384486
+ACTOR_00002,Actor_1006,ransomware_group,Unknown,high,2023-03-06,2024-09-07,369,2,0.8907070997097282
+ACTOR_00011,Actor_3487,cybercriminal,Romania,critical,2023-08-27,2024-02-19,171,8,0.4460762959422387
+ACTOR_00012,Actor_4946,hacker_collective,North Korea,critical,2023-03-23,2024-01-05,499,7,0.6785515117043327
+ACTOR_00018,Actor_9605,drug_trafficker,China,high,2023-07-18,2024-07-10,260,3,0.7517414582849572
+ACTOR_00021,Actor_8619,hacker_collective,North Korea,high,2023-07-30,2024-07-08,481,8,0.4874641641737621
+ACTOR_00025,Actor_8816,drug_trafficker,Ukraine,high,2023-06-24,2024-02-06,289,8,0.3556410171586225
+ACTOR_00026,Actor_1557,drug_trafficker,Iran,critical,2023-11-11,2024-06-16,135,3,0.5048402006089889
+ACTOR_00032,Actor_9927,drug_trafficker,Russia,critical,2023-07-18,2024-04-07,190,0,0.999969868058139
+ACTOR_00033,Actor_3265,ransomware_group,North Korea,high,2023-05-28,2024-11-25,195,0,0.7838437310938383
+ACTOR_00035,Actor_9373,hacker_collective,China,high,2023-07-20,2024-10-22,377,7,0.4007155911046574
+ACTOR_00037,Actor_6069,money_launderer,Romania,critical,2023-02-08,2024-11-08,18,4,0.86932662219167
+ACTOR_00039,Actor_2193,money_launderer,China,critical,2023-07-07,2024-03-28,315,3,0.412982926065867
+ACTOR_00040,Actor_5234,drug_trafficker,North Korea,high,2023-07-05,2024-01-19,372,8,0.5068158512852607
+ACTOR_00050,Actor_1230,ransomware_group,Russia,high,2023-03-20,2024-09-22,426,9,0.9771174620664298
+ACTOR_00051,Actor_1994,drug_trafficker,Brazil,high,2023-09-24,2024-10-31,365,0,0.4179714577395225
+ACTOR_00052,Actor_5039,cybercriminal,Romania,critical,2023-08-24,2024-02-10,261,0,0.5699979132904418
+ACTOR_00054,Actor_9981,ransomware_group,Unknown,high,2023-08-19,2024-04-11,46,8,0.765796278437322
+ACTOR_00056,Actor_5438,hacker_collective,Unknown,high,2023-12-16,2024-04-06,14,9,0.8972802215396956
+ACTOR_00059,Actor_8202,drug_trafficker,Ukraine,high,2023-02-02,2024-08-06,444,7,0.9177843274510727
+ACTOR_00060,Actor_7041,drug_trafficker,Ukraine,high,2023-06-02,2024-08-01,22,8,0.3113221342473378
+ACTOR_00064,Actor_2313,hacker_collective,Brazil,critical,2023-10-17,2024-05-01,396,8,0.5924236835227004
+ACTOR_00066,Actor_8459,ransomware_group,China,critical,2023-10-31,2024-08-09,335,6,0.9433095421125746
+ACTOR_00067,Actor_8939,cybercriminal,North Korea,critical,2023-04-02,2024-01-27,280,1,0.7343713405472498
+ACTOR_00068,Actor_7521,drug_trafficker,Iran,high,2023-09-22,2024-05-01,13,0,0.8997201570891908
+ACTOR_00069,Actor_2177,cybercriminal,Iran,high,2023-08-13,2024-05-03,352,1,0.3851000546721955
+ACTOR_00070,Actor_2666,cybercriminal,Russia,critical,2023-11-06,2024-07-07,26,5,0.4473648172661939
+ACTOR_00073,Actor_9706,ransomware_group,Ukraine,high,2023-11-08,2024-07-27,484,7,0.4646588671140178
+ACTOR_00081,Actor_7818,drug_trafficker,Unknown,high,2023-10-15,2024-12-03,422,8,0.5027973218732984
+ACTOR_00082,Actor_9642,hacker_collective,North Korea,critical,2023-09-19,2024-01-09,146,9,0.8464639448385209
+ACTOR_00086,Actor_2543,drug_trafficker,North Korea,critical,2023-12-25,2024-11-16,128,2,0.4478361015982069
+ACTOR_00092,Actor_9584,hacker_collective,North Korea,high,2023-10-06,2024-04-14,122,7,0.6387730098088874
+ACTOR_00093,Actor_5258,drug_trafficker,Unknown,high,2023-03-06,2024-06-20,11,5,0.803724094727464
+ACTOR_00097,Actor_8411,hacker_collective,China,high,2023-08-09,2024-05-20,252,1,0.8938270462425439
+ACTOR_00099,Actor_3616,ransomware_group,Russia,high,2023-05-19,2024-03-14,455,1,0.4952843123921663
