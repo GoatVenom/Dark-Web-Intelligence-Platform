@@ -1,68 +1,92 @@
- Data Drive Security Insights
+# Step 1
+cd ~/Documents/Dark-Web-Intelligence-Platform.
 
-Data Drive Security Insights is a machine learning project focused on analyzing and predicting the nature and impact of cybersecurity breaches. Using breach data, this project classifies breach methods and predicts the estimated impact (e.g., number of records lost), helping inform proactive data protection strategies.
+# Step 2 - Create README (copy this ENTIRE block)
+cat > README.md << 'ENDOFREADME'
+# 🕵️ Dark Web Intelligence Platform
 
-Project Objectives
+> **Real-Time Threat Detection & Analysis System for Cryptocurrency Criminal Activity**
 
-- Classify: The breach method (e.g., Hacking, Phishing, Lost Device).
-- Predict: Breach impact using regression models (e.g., records affected).
-- Visualize: breach trends, methods, and impacts.
-- Support:  data-driven security insights for decision-makers.
+**Portfolio Project for MITRE Senior Data Scientist Position**  
+**Author:** Kyle  
+**Repository:** https://github.com/GoatVenom/Dark-Web-Intelligence-Platform
 
-Project Structure:
-├── data/             #Dataset 
+## 🎯 Executive Summary
 
-├── notebooks/        #Jupyter notebooks for EDA, ML, visualization
+Production-grade intelligence platform demonstrating:
+- Real-time cryptocurrency threat detection (20+ transactions/second)
+- Machine learning classification (85%+ accuracy)
+- Live intelligence dashboards with automated alerting
+- Criminal network analysis
+- Automated intelligence reporting
 
-├── src/              #Modular Python scripts for data & model logic
+## 🚀 Quick Start
 
-├── reports/          #Visualizations and analysis results
-
-├── requirements.txt  #Python dependencies
-
-├── README.md         #Project overview 
-
-├── LICENSE 
-
-
-*Dependencies:
-Install the required Python packages:
-
-Bash: 
+```bash
+git clone https://github.com/GoatVenom/Dark-Web-Intelligence-Platform.git
+cd Dark-Web-Intelligence-Platform
+python -m venv venv
+source venv/Scripts/activate
 pip install -r requirements.txt
 
-Main Packages Used:
--pandas
--scikit-learn
--matplotlib
--seaborn
--jupyter
+# Terminal 1
+python src/streaming/real_time_pipeline_v3.py
 
-How to Use: 
-git clone https://github.com/GoatVenom/Data-Driven-Security-Insights.git
-cd Data-Drive-Security-Insights
+# Terminal 2
+python src/streaming/simple_dashboard.py
+
+# Browser: http://localhost:5000
 
 
-Launch Jupyter Notebook:
-jupyter notebook
+Key Features
+Real-Time Detection: 20 trans/sec, <100ms latency
+ML Model: Random Forest, 85%+ accuracy
+Live Dashboard: Auto-refresh, severity-based alerts
+Data: 5 datasets, 1,500+ cryptocurrency transactions
+Reports: 5 automated intelligence reports
+Visualizations: 10 professional charts
 
-Open notebooks in order:
-01_data_preprocessing.ipynb
-02_breach_method_classifier.ipynb
-03_impact_prediction.ipynb
-04_data_visualization.ipynb
 
-Modify or reuse functions from the src/ folder if working in scripts.
+MITRE Alignment
+✅ Criminal network analysis
+✅ Cryptocurrency transaction analysis
+✅ Advanced machine learning (Random Forest)
+✅ Real-time threat detection
+✅ Explainable AI (probability scoring)
+✅ Intelligence communication (dashboards, reports)
+✅ Production-ready Python (2,000+ lines)
 
-Visualizations include:
-Breach imapact frequency by year
-Confusion matrix for method classifier
-Impact prediction scatterplot
 
-All saved in reports/figures.
+Project Structure
 
-Project Usage:
-This project can be used to:
-* Monitor breach trends
-* Simulate impact forecasting for hypothetical breaches
-* Explore which factors most influence breach consequences
+├── data/processed/              # 5 datasets (283KB)
+├── output/
+│   ├── alerts/                  # Live alert stream
+│   ├── models/                  # Trained models (2MB)
+│   └── visualizations/          # 10 charts
+├── src/streaming/               # Real-time detection
+├── MITRE_SUBMISSION.md          # Complete portfolio (20+ pages)
+└── MITRE_LIVE_DEMO.md          # Demo walkthrough
+
+
+Commands
+
+python view_alerts.py                          # View alerts
+python view_report.py                          # Visual report
+python verify_project.py                       # System check
+python src/streaming/real_time_pipeline_v3.py  # Start detector
+python src/streaming/simple_dashboard.py       # Start dashboard
+
+
+Documentation
+
+MITRE_SUBMISSION.md - Full 20+ page submission
+MITRE_LIVE_DEMO.md - Complete demo walkthrough
+USAGE_GUIDE.md - Operational guide
+QUICK_REFERENCE.md - Quick reference
+
+
+Kyle - Data Scientist specializing in cybercrime & threat intelligence
+
+Email: khill37@gmu.edu
+GitHub: GoatVenom
